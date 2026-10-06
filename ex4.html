@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="Tp4 ex4.php" method="post">
+        <fieldset>
+            <legend>votre identite</legend>
+            <ol>
+                <li><label for="">nom :</label> <input type="text" required placeholder="prenom et nom"></li> <br>
+                <li><label for="">email  :</label> <input type="email" required placeholder="exemple@dommain.com"></li><br>
+                <li><label for="">telephone:</label> <input type="tel" required placeholder="par ex : +5727897857"></li><br>
+            </ol>
+        </fieldset>
+        <fieldset>
+            <legend>adresse de livraison </legend>
+            <ol>
+                <li><label for="">adress:</label> <textarea name="" id=""></textarea></li> <br>
+                <li><label for="">code postal :</label> <input type="text" required ></li><br>
+                <li><label for="">pays:</label> <input type="text" required ></li><br>
+            </ol>
+        </fieldset>
+        <fieldset>
+            <legend>information cb</legend>
+            <ol>
+                <li>
+                    <fieldset>
+                        <legend>type de carte bancaire </legend>
+                        <ol>
+                            <li><input type="radio" name="" id="">visa </li>
+                            <li><input type="radio" name="" id="">amex </li>
+                            <li><input type="radio" name="" id="">mastercard </li>
+                        </ol>
+                    </fieldset>
+                </li>
+                <li><label for="">n de carte </label> <input type="text"></li>
+                <li><label for="">code securite </label> <input type="password"></li>
+                <li><label for="">nom du porteur </label> <input type="text" placeholder="meme nom que sur la carte "></li>
+            </ol>
+        </fieldset>
+        <fieldset>
+            <input type="submit" value="j'achète">
+        </fieldset>
+    </form>
+</body>
+</html>
